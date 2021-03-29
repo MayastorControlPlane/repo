@@ -13,6 +13,7 @@ serde = { version = "1.0", features = ["derive"] }
 async-trait = "0.1.36"
 snafu = "0.6"
 tracing = "0.1"
+mbus_api = { path = "../mbus-api" }
 
 [dev-dependencies]
 composer = { path = "../../composer" }
